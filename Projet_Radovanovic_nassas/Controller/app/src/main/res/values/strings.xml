@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">sudoku</string>
+    <string name="title">Projet Sudoku!</string>
+    <string name="btn_jouer">NOUVELLE PARTIE</string>
+    <string name="btn_highscores">HIGHSCORES</string>
+    <string name="btn_quitter">QUITTER</string>
+    <string name="btn_Apropos">A  PROPOS</string>
+    <string name="btn_son">activer son</string>
+    <string name="btn_continuer">CONTINUER</string>
+    <string name="about">A PROPOS</string>
+    <string name="title_activity_sodoku">Sodoku</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="about_text">\
+Le sudoku (prononcé soudokou en français) est un jeu en forme de grille défini en 1979 par l’Américain Howard Garns, mais inspiré du carré latin, ainsi que du problème des 36 officiers du mathématicien suisse Leonhard Euler.\n\nLe but du jeu est de remplir la grille avec une série de chiffres (ou de lettres ou de symboles) tous différents, qui ne se trouvent jamais plus d’une fois sur une même ligne, dans une même colonne ou dans une même sous-grille. La plupart du temps, les symboles sont des chiffres allant de 1 à 9, les sous-grilles étant alors des carrés de 3 × 3. Quelques symboles sont déjà disposés dans la grille, ce qui autorise une résolution progressive du problème complet.\n\n\n
+        Ce projet à été réalisé en binôme par Hamza Nassas et Aleksandar Radovanovic.
+            
+</string>
+    <string name="title_activity_sudoku">Sudoku</string>
+    <string name="title_activity_grille_sudoku">Grille_sudoku</string>
+    <string name="title_activity_touche_">Touche_Activity</string>
+    <string name="title_activity_score">Score</string>
+    <string name="title_activity_a_propos">A_propos</string>
+
+</resources>

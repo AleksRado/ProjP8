@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="p8.example.projet"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainSudoku"
+            android:label="@string/app_name" 
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+       
+        <activity
+            android:name=".Grille_sudoku"
+            android:label="@string/title_activity_grille_sudoku"
+            >
+        </activity>
+        <activity
+            android:name=".Score"
+            android:label="@string/title_activity_score" 
+            >
+        </activity>
+        <activity
+            android:name=".A_propos"
+            android:label="@string/title_activity_a_propos" 
+            >
+        </activity>
+        <activity android:label="settings_title" android:name=".Prefs"></activity>
+    </application>
+
+</manifest>

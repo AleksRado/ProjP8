@@ -1,0 +1,112 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sudokuland"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text=" "
+        android:textSize="25sp" />
+
+      <Button
+          android:id="@+id/buttonApropos"
+          style="@style/Base.TextAppearance.AppCompat.Light.Widget.PopupMenu.Small"
+          android:layout_width="35sp"
+          android:layout_height="35sp"
+          android:background="@drawable/apropos"
+          android:gravity="center"
+          android:text=" " />
+
+      <TableLayout
+          android:id="@+id/tableLayout1"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentBottom="true"
+          android:layout_centerHorizontal="true"
+          android:layout_marginBottom="18dp" >
+
+          <TableRow
+              android:id="@+id/tableRow1"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content" >
+
+              <Button
+                  android:id="@+id/buttonJouer"
+                  style="@style/Base.TextAppearance.AppCompat.Light.Widget.PopupMenu.Small"
+                  android:layout_width="wrap_content"
+                  android:layout_height="55sp"
+                  android:background="@drawable/boutongris"
+                  android:text="@string/btn_jouer" />
+
+          </TableRow>
+
+          <TableRow
+              android:id="@+id/tableRow2"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content" >
+          </TableRow>
+
+          <TableRow
+              android:id="@+id/tableRow5"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content" >
+
+              <Button
+                  android:id="@+id/buttoncontinuer"
+                  style="@style/Base.TextAppearance.AppCompat.Light.Widget.PopupMenu.Small"
+                  android:layout_width="wrap_content"
+                  android:layout_height="55sp"
+                  android:background="@drawable/boutongris"
+                  android:text="@string/btn_continuer" />
+          </TableRow>
+
+          <TableRow
+              android:id="@+id/tableRow3"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content" >
+
+              <Button
+                  android:id="@+id/buttonhighscores"
+                  style="@style/Base.TextAppearance.AppCompat.Light.Widget.PopupMenu.Small"
+                  android:layout_width="wrap_content"
+                  android:layout_height="55sp"
+                  android:background="@drawable/boutongris"
+                  android:text="Score" />
+          </TableRow>
+
+          <TableRow
+              android:id="@+id/tableRow6"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content" >
+
+              <Button
+                  android:id="@+id/buttonquitter"
+                  style="@style/Base.TextAppearance.AppCompat.Light.Widget.PopupMenu.Small"
+                  android:layout_width="wrap_content"
+                  android:layout_height="55sp"
+                  android:background="@drawable/boutongris"
+                  android:text="@string/btn_quitter" />
+          </TableRow>
+      </TableLayout>
+
+      <Button
+          android:id="@+id/buttonSon"
+          style="?android:attr/buttonStyleSmall"
+          android:layout_width="35sp"
+          android:layout_height="35sp"
+          android:layout_alignBaseline="@+id/textView1"
+          android:layout_alignBottom="@+id/textView1"
+          android:layout_alignParentRight="true"
+          android:background="@drawable/sonon"
+          android:text=" " />
+
+</RelativeLayout>

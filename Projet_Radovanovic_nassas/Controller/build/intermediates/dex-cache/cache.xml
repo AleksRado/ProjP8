@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Dante\Desktop\sudoku4\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="C:\Users\Dante\Desktop\sudoku4\app\build\intermediates\pre-dexed\debug\classes-a89e3d76b0ca54082b72bd1f46b0a4387a5522a5.jar" />
+    </item>
+    <item
+        jar="C:\Users\Dante\Desktop\sudoku4\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="C:\Users\Dante\Desktop\sudoku4\app\build\intermediates\pre-dexed\debug\classes-97282e9341d5c03378d5ffe90cdf0c3df9c8979b.jar" />
+    </item>
+    <item
+        jar="C:\Users\Dante\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="C:\Users\Dante\Desktop\sudoku4\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-4bfb17cb76c3f6c33ce890dc606927cb1797fe79.jar" />
+    </item>
+    <item
+        jar="C:\Users\Dante\Desktop\sudoku4\app\build\intermediates\exploded-aar\com.android.support\gridlayout-v7\21.0.3\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="2e8c06a7aad26ba8d2d5cab8134556594fe36856">
+        <dex dex="C:\Users\Dante\Desktop\sudoku4\app\build\intermediates\pre-dexed\debug\classes-b66caf205600e415ed7cc1933a023c646f3d2f30.jar" />
+    </item>
+    <item
+        jar="C:\Users\Dante\Desktop\sudoku4\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="C:\Users\Dante\Desktop\sudoku4\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-6a20908c32ded54581adcdb1c0eee601e5476631.jar" />
+    </item>
+
+</items>
